@@ -1,4 +1,4 @@
 # LAB3-CVDS
 ## Integrantes>
-. Andres Rocha
-. David Herrera
+1. Andres Rocha
+2. David Herrera
