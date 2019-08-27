@@ -37,18 +37,17 @@ public class RegistryTest {
         Assert.assertEquals(RegisterResult.UNDERAGE, result);
     }
  
-	/**
 	@Test
     public void duplicatedRegistryResult() {
 
         Person person = new Person("Manuel Herrera",1000076035,25,Gender.MALE,true);
 		Person person2 = new Person("Andres Salamanca",1000076035,40,Gender.MALE,true);
+		
+		RegisterResult result1 = registry.registerVoter(person);
+        RegisterResult result2 = registry.registerVoter(person2);
 
-        RegisterResult result = registry.registerVoter(person2);
-
-        Assert.assertEquals(RegisterResult.DUPLICATED, result);
+        Assert.assertEquals(RegisterResult.DUPLICATED, result2);
     }
-	**/
 	
 	@Test
     public void deadRegistryResult() {
