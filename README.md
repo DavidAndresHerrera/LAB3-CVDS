@@ -48,7 +48,7 @@ public long calculoTarifa(long tarifaBase, int diasAntelacion, int edad)
   
 
 >En la siguiente tabla enumere un conjunto de clases de equivalencia que -según usted- creen una buena división del conjunto de datos de entrada de la función anterior: Número Clase de equivalencia (en lenguaje natural o matemático). Resultado correcto /incorrecto. 
-
+> ## Respuesta
 
 ![](tabla.png)
 
